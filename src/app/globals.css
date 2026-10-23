@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+:root {
+  --surface: #111415;
+  --surface-dim: #111415;
+  --surface-bright: #37393b;
+  --surface-container-lowest: #0c0f10;
+  --surface-container-low: #191c1e;
+  --surface-container: #1d2022;
+  --surface-container-high: #282a2c;
+  --surface-container-highest: #323537;
+  --on-surface: #e1e2e4;
+  --on-surface-variant: #cbc3d7;
+  --outline: #958ea0;
+  --outline-variant: #494454;
+  --primary: #8b5cf6;
+  --primary-light: #d0bcff;
+  --primary-container: #a078ff;
+  --on-primary: #ffffff;
+  --on-primary-container: #340080;
+  --secondary: #06b6d4;
+  --secondary-light: #4cd7f6;
+  --secondary-container: #03b5d3;
+  --on-secondary: #003640;
+  --background: #111415;
+  --foreground: #e1e2e4;
+  --font-space-grotesk: 'Space Grotesk', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+@theme {
+  --color-surface: var(--surface);
+  --color-surface-dim: var(--surface-dim);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary: var(--on-primary);
+  --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
+  --color-secondary-container: var(--secondary-container);
+  --color-on-secondary: var(--on-secondary);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  font-family: var(--font-inter);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism styling */
+.glass-panel {
+  background: rgba(29, 32, 34, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.glass-nav {
+  background: rgba(17, 20, 21, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-bottom-bar {
+  background: rgba(17, 20, 21, 0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.neon-glow-violet {
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.35);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.35);
+}
+
+.neon-border-violet {
+  border: 1px solid rgba(139, 92, 246, 0.4);
+}
+
+.neon-border-cyan {
+  border: 1px solid rgba(6, 182, 212, 0.4);
+}
+
+/* Custom scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Headlines */
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-space-grotesk);
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {"colors": {"surface": "#111415", "inverse-surface": "#e1e2e4", "surface-container-low": "#191c1e", "on-tertiary-container": "#262934", "tertiary-fixed-dim": "#c3c6d4", "secondary-fixed-dim": "#4cd7f6", "surface-container-high": "#282a2c", "secondary-fixed": "#acedff", "on-primary": "#3c0091", "background": "#111415", "primary-container": "#a078ff", "on-secondary": "#003640", "on-tertiary": "#2c303b", "primary-fixed-dim": "#d0bcff", "outline-variant": "#494454", "surface-container-lowest": "#0c0f10", "on-secondary-fixed-variant": "#004e5c", "primary": "#d0bcff", "on-tertiary-fixed": "#171b26", "on-error": "#690005", "surface-variant": "#323537", "on-tertiary-fixed-variant": "#434652", "surface-dim": "#111415", "error": "#ffb4ab", "on-background": "#e1e2e4", "tertiary-container": "#8d909e", "secondary": "#4cd7f6", "on-error-container": "#ffdad6", "secondary-container": "#03b5d3", "inverse-primary": "#6d3bd7", "error-container": "#93000a", "on-primary-fixed": "#23005c", "on-secondary-container": "#00424e", "surface-bright": "#37393b", "primary-fixed": "#e9ddff", "surface-container": "#1d2022", "on-surface-variant": "#cbc3d7", "on-primary-container": "#340080", "outline": "#958ea0", "tertiary": "#c3c6d4", "on-primary-fixed-variant": "#5516be", "tertiary-fixed": "#dfe2f1", "inverse-on-surface": "#2e3132", "surface-container-highest": "#323537", "on-surface": "#e1e2e4", "surface-tint": "#d0bcff", "on-secondary-fixed": "#001f26"}, "borderRadius": {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"}, "spacing": {"gutter": "1.25rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "space-lg": "1.5rem", "space-md": "1rem", "margin": "1.5rem"}}}};</script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="OtakuPulse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE1YOUCOn3OyW42ircjtHn4GhtmpG_65Mil0_dxWLZyTu8HEqhd9pUOfWetfnrDAcOuaJ_edvih1_5is2kG2jbHUrrKvWFt7-fp1LmP1yxlGPmgEdD53_Sh341oumsovBarDhGMPArtgRhjlTJ7b_ElTfyZO49NKXmWc89pxCBsSQu_ml69RWUJhzmf2gJPCqZ1nblvsKqEdPKsYOeWLVwsLVz29o0_k9qNC1kqngbNKaqrxUAJiGs4w"/><span class="text-headline-sm font-headline-sm uppercase text-on-surface">Profile</span></div><div class="flex items-center gap-space-md"><button class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined">notifications</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCp42TK9I6AOn4koBdQheAbfn99v0sySKRtrhf8zmjOe0fuq_A0GMy05K3A3nBGImrfp8AppZET3ptw3lz0JtWh0wFXoTW6MQtmLJsk7goSkhQqfzDIEwNhkGGlaMzaLc53BKqP973yK1dadTVoLhjpxI5OTKqhx40RjyIdj2govDe6j5JYbB3yXGr_7u9G8cItnXgoPMGgxEhdhMVA-8GnggqUK8dxG2P3phA3ZHN4-xAMDVIgMXxBUA"/></div></div></header><main class="flex flex-col relative w-full px-gutter pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full gap-space-lg pb-12">
+<!-- Profile & Membership Badge Header -->
+<div class="relative overflow-hidden rounded-2xl bg-surface-container p-space-lg shadow-xl">
+<!-- Ambient glow overlay -->
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute -left-12 -bottom-12 w-48 h-48 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex items-center gap-space-md">
+<div class="relative">
+<img class="w-16 h-16 rounded-2xl object-cover ring-2 ring-primary" data-alt="Close up portrait of an anime collector avatar with neon cyberpunk lighting, violet hair, futuristic visor, dark obsidian background, highly detailed digital art style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBG1_GpdwigeA9nHHSrhbM1HBy5cTe6KxJxOHESYWPY6WfJMqLPSDTZljMYzKTMYTBAZwdLEQM9u5gy9KR8T5BoIwMyFz8QttOfAvU9polWvRTMu6a58iMcW240vhOzNQIUGzSP39EdlqgqCuuwPIaA1pdpTBji-86y9hUXzrha-Zgy2YCsLbJTOeaDnpOA5BVYNNAMYHEifDVElRxQ8QLX90Q4ILDyhsU52_v-jQFawNfnOPimLIr0TQ"/>
+<span class="absolute -bottom-1 -right-1 bg-primary text-on-primary text-label-sm font-label-sm px-1.5 py-0.5 rounded-full">S</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2">
+<h2 class="text-headline-sm font-headline-sm text-on-surface truncate">Kaito_Pulse</h2>
+<span class="bg-primary-container/20 text-primary text-label-sm font-label-sm px-2 py-0.5 rounded-full">S-Tier Otaku</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-0.5">Member since Nov 2022 • Tokyo Vault</p>
+</div>
+<button class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+</div>
+<!-- Tier Progress -->
+<div class="mt-space-md pt-space-md border-t border-surface-container-high/50 flex flex-col gap-2">
+<div class="flex justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">XP to God-Tier Vault</span>
+<span class="text-primary font-bold">8,420 / 10,000 XP</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-gradient-to-r from-primary to-secondary w-[84%] rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- User Stats Summary Grid -->
+<div class="grid grid-cols-3 gap-space-sm">
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col items-center justify-center text-center shadow-md">
+<span class="material-symbols-outlined text-primary mb-1" style="font-variation-settings: 'FILL' 1;">deployed_code</span>
+<span class="text-headline-sm font-headline-sm text-on-surface">42</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant uppercase mt-0.5">Owned</span>
+</div>
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col items-center justify-center text-center shadow-md">
+<span class="material-symbols-outlined text-secondary mb-1" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+<span class="text-headline-sm font-headline-sm text-on-surface">5</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant uppercase mt-0.5">Pre-orders</span>
+</div>
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col items-center justify-center text-center shadow-md">
+<span class="material-symbols-outlined text-error mb-1" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="text-headline-sm font-headline-sm text-on-surface">18</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant uppercase mt-0.5">Wishlist</span>
+</div>
+</div>
+<!-- Active Pre-orders Tracking Section -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Active Pre-orders</h3>
+<span class="text-label-md font-label-md text-secondary">5 in transit / prep</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Pre-order Card 1 -->
+<div class="bg-surface-container rounded-2xl p-space-md flex gap-space-md items-center shadow-md">
+<img class="w-20 h-20 rounded-xl object-cover" data-alt="Detailed anime figure of Gojo Satoru in dynamic floating pose with translucent blue cursed energy effects, dark background, premium collector photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA7lqUPv2PLdwQfXBAaiy7qV2PPiPEsIijVji6_cNSKf1WETH7dBBZj9MrDcoizj8KDJaNbiB_AvRUUBB5XoYetwCVui2MaqwjcP0dERs7Ljhbe_BhStlEDEe7E_rsYBl0MeD1lYviWMcoEIrrFjk31j543CExFynCz7UHung3xOHegLCWPvzheWxWBVnjVA7W-ZD6EMsAvgK21aJs-qqXLZZ1wDNDUUQmmXSDQEfgDTaSZojwNkhKXQ"/>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="text-label-sm font-label-sm text-secondary bg-secondary-container/20 px-2 py-0.5 rounded-full">Shipped</span>
+<span class="text-body-sm font-body-sm text-on-surface-variant">Est. Oct 28</span>
+</div>
+<h4 class="text-body-lg font-body-lg text-on-surface font-semibold truncate mt-1">Gojo Satoru - Infinite Void ver.</h4>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Shibuya Scramble • 1/7 Scale</p>
+</div>
+</div>
+<!-- Pre-order Card 2 -->
+<div class="bg-surface-container rounded-2xl p-space-md flex gap-space-md items-center shadow-md">
+<img class="w-20 h-20 rounded-xl object-cover" data-alt="High quality anime action figure of Power from Chainsaw Man holding hammer with blood splashes, chaotic pose, dark atmospheric studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2D9MQRrvs_koMCkR2-V_WDYYEWxpu1-VwdvuE5t6h6B-9L4pC45hqJtqw2FV2iSj3D8l3viXoK5RLlsb8v4TolFNDXqqbph0XUGYj2mlH2OLybXJZeAOYmI4PqDIT_G1J8zZy7ss6Z6VgIEzcUG7JolHQYP2GEDf1xU0n3tK96ozkJ1JRST9y7f82CF4Y7dYoDOAzxWX3PDe2FVDEU8UfnG09BQ2qnFfcub7rrF977I4E36ykhG2Mxw"/>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="text-label-sm font-label-sm text-primary bg-primary-container/20 px-2 py-0.5 rounded-full">Preparing</span>
+<span class="text-body-sm font-body-sm text-on-surface-variant">Est. Nov 14</span>
+</div>
+<h4 class="text-body-lg font-body-lg text-on-surface font-semibold truncate mt-1">Power - Blood Fiend Edition</h4>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Good Smile Company • 1/8 Scale</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Wishlist Gallery with Price Drops & Stock Alerts -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Wishlist Radar</h3>
+<span class="text-label-md font-label-md text-primary">18 monitored</span>
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<!-- Wishlist Item 1 -->
+<div class="bg-surface-container rounded-2xl overflow-hidden flex flex-col shadow-md">
+<div class="relative h-40 w-full">
+<img class="w-full h-full object-cover" data-alt="Stunning collectible figure of Makima from Chainsaw Man sitting on tailored suit chair with calm menacing expression, cinematic lighting, dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHC4ffa27VVCcvz93Ty_4hyKmvpZpgUHyRwHz4z9i51Hg4zBUqAbxsncAJUz-RjX2tDyFbPnYVgjGPq0_2UW9u554iX2EOpJXFLFITHWJ-3fg9DD_h6dou728NRFULklk7XxeXc7XFACOlzaGcEdUBhYNluwG4I8gDiwxv8t06YJz_SMm3HPlniknUEU2CUTG2qjCVGrmOm_uHz8Sjp5zyXxR4ub7d2bhYheUYMhaE0RiWx5iqlzPLOw"/>
+<div class="absolute top-2 right-2 bg-error/90 text-on-error text-label-sm font-label-sm px-2 py-0.5 rounded-full shadow-lg">
+            -15% Drop
+          </div>
+<button class="absolute top-2 left-2 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<span class="text-label-sm font-label-sm text-secondary">In Stock • Akiba Vault</span>
+<h4 class="text-body-md font-body-md text-on-surface font-semibold truncate">Makima Control Ver.</h4>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="text-headline-sm font-headline-sm text-primary">$185</span>
+<span class="text-body-sm font-body-sm text-on-surface-variant line-through">$215</span>
+</div>
+</div>
+</div>
+<!-- Wishlist Item 2 -->
+<div class="bg-surface-container rounded-2xl overflow-hidden flex flex-col shadow-md">
+<div class="relative h-40 w-full">
+<img class="w-full h-full object-cover" data-alt="Collectible figure of Zoro Roronoa from One Piece performing triple katana slash with neon green aura effects, dynamic action pose, dark backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5zy_AjpUZ8SwJi0DPsvnX_3Izx4iMTAQ9UOxnHRRDhPYoLvJmPSMLvKSssvZdOSIpdzCZRkDf6ZeUX3CJPvDyU-0470PWZzbya3cI6b7fOTTRt3oDSmHiDLAXKco8IVh8DhsK8P1O8GYvWd7Klfn8TZHYuzjdwQFjkUpdcQUkzdGVNLjo8BsFOQWNJRYB-J0SRX3mdOcNsBIgr_cOHQq9DyyTUmDMjls36Q1Jfj22dz4uCROTGF69tw"/>
+<div class="absolute top-2 right-2 bg-secondary/90 text-on-secondary text-label-sm font-label-sm px-2 py-0.5 rounded-full shadow-lg">
+            Low Stock
+          </div>
+<button class="absolute top-2 left-2 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-md flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<div class="p-space-sm flex flex-col gap-1">
+<span class="text-label-sm font-label-sm text-error">Only 3 Left</span>
+<h4 class="text-body-md font-body-md text-on-surface font-semibold truncate">Roronoa Zoro Asura</h4>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="text-headline-sm font-headline-sm text-primary">$240</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Membership Benefits & Rewards Badge -->
+<div class="bg-gradient-to-br from-surface-container via-surface-container-high to-surface-container rounded-2xl p-space-lg shadow-xl relative overflow-hidden flex flex-col gap-space-md">
+<div class="absolute right-0 bottom-0 translate-x-4 translate-y-4 opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[140px]">workspace_premium</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</div>
+<div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface">S-Tier Collector Perks</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Active tier privileges unlocked</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm mt-1">
+<div class="bg-surface/50 backdrop-blur-md rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary">bolt</span>
+<span class="text-body-sm font-body-sm text-on-surface font-medium">24h Early Drop Access</span>
+</div>
+<div class="bg-surface/50 backdrop-blur-md rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary">local_shipping</span>
+<span class="text-body-sm font-body-sm text-on-surface font-medium">Free Express EMS</span>
+</div>
+<div class="bg-surface/50 backdrop-blur-md rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary">verified</span>
+<span class="text-body-sm font-body-sm text-on-surface font-medium">10% Vault Cashback</span>
+</div>
+<div class="bg-surface/50 backdrop-blur-md rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary">support_agent</span>
+<span class="text-body-sm font-body-sm text-on-surface font-medium">VIP Concierge</span>
+</div>
+</div>
+</div>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)]" data-active-classes="text-primary bg-primary-container/10 font-bold"><div class="flex justify-around items-center h-20 px-space-sm"><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 text-on-surface-variant transition-all rounded-xl" data-path="home" href="#"><span class="material-symbols-outlined">home</span><span class="text-label-sm font-label-sm">Home</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 text-on-surface-variant transition-all rounded-xl" data-path="drops" href="#"><span class="material-symbols-outlined">bolt</span><span class="text-label-sm font-label-sm">Drops</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 text-on-surface-variant transition-all rounded-xl" data-path="news" href="#"><span class="material-symbols-outlined">newspaper</span><span class="text-label-sm font-label-sm">News</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 transition-all rounded-xl text-primary bg-primary-container/10 font-bold" data-path="profile" href="#"><span class="material-symbols-outlined">person</span><span class="text-label-sm font-label-sm">Profile</span></a></div></nav><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/></body></html>

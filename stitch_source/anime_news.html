@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {"colors": {"surface": "#111415", "inverse-surface": "#e1e2e4", "surface-container-low": "#191c1e", "on-tertiary-container": "#262934", "tertiary-fixed-dim": "#c3c6d4", "secondary-fixed-dim": "#4cd7f6", "surface-container-high": "#282a2c", "secondary-fixed": "#acedff", "on-primary": "#3c0091", "background": "#111415", "primary-container": "#a078ff", "on-secondary": "#003640", "on-tertiary": "#2c303b", "primary-fixed-dim": "#d0bcff", "outline-variant": "#494454", "surface-container-lowest": "#0c0f10", "on-secondary-fixed-variant": "#004e5c", "primary": "#d0bcff", "on-tertiary-fixed": "#171b26", "on-error": "#690005", "surface-variant": "#323537", "on-tertiary-fixed-variant": "#434652", "surface-dim": "#111415", "error": "#ffb4ab", "on-background": "#e1e2e4", "tertiary-container": "#8d909e", "secondary": "#4cd7f6", "on-error-container": "#ffdad6", "secondary-container": "#03b5d3", "inverse-primary": "#6d3bd7", "error-container": "#93000a", "on-primary-fixed": "#23005c", "on-secondary-container": "#00424e", "surface-bright": "#37393b", "primary-fixed": "#e9ddff", "surface-container": "#1d2022", "on-surface-variant": "#cbc3d7", "on-primary-container": "#340080", "outline": "#958ea0", "tertiary": "#c3c6d4", "on-primary-fixed-variant": "#5516be", "tertiary-fixed": "#dfe2f1", "inverse-on-surface": "#2e3132", "surface-container-highest": "#323537", "on-surface": "#e1e2e4", "surface-tint": "#d0bcff", "on-secondary-fixed": "#001f26"}, "borderRadius": {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"}, "spacing": {"gutter": "1.25rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "space-lg": "1.5rem", "space-md": "1rem", "margin": "1.5rem"}}}};</script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="OtakuPulse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE1YOUCOn3OyW42ircjtHn4GhtmpG_65Mil0_dxWLZyTu8HEqhd9pUOfWetfnrDAcOuaJ_edvih1_5is2kG2jbHUrrKvWFt7-fp1LmP1yxlGPmgEdD53_Sh341oumsovBarDhGMPArtgRhjlTJ7b_ElTfyZO49NKXmWc89pxCBsSQu_ml69RWUJhzmf2gJPCqZ1nblvsKqEdPKsYOeWLVwsLVz29o0_k9qNC1kqngbNKaqrxUAJiGs4w"/><span class="text-headline-sm font-headline-sm uppercase text-on-surface">News</span></div><div class="flex items-center gap-space-md"><button class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface"><span class="material-symbols-outlined">notifications</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCp42TK9I6AOn4koBdQheAbfn99v0sySKRtrhf8zmjOe0fuq_A0GMy05K3A3nBGImrfp8AppZET3ptw3lz0JtWh0wFXoTW6MQtmLJsk7goSkhQqfzDIEwNhkGGlaMzaLc53BKqP973yK1dadTVoLhjpxI5OTKqhx40RjyIdj2govDe6j5JYbB3yXGr_7u9G8cItnXgoPMGgxEhdhMVA-8GnggqUK8dxG2P3phA3ZHN4-xAMDVIgMXxBUA"/></div></div></header><main class="flex flex-col relative w-full px-gutter pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full gap-space-lg pb-space-xl">
+<!-- Top Banner / Live Countdown Hero -->
+<div class="relative w-full rounded-2xl bg-surface-container-high p-space-lg overflow-hidden shadow-xl">
+<div class="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-luminosity" data-alt="A cinematic cyberpunk anime scene featuring Gojo Satoru in neon purple lighting, surrounded by glowing cursed energy particles and high contrast dark styling." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA-cxbnRXR6KM2qoBJj6TRsA_EnGFduoVtdj3wlXJ6Na612FCA7cJDCd5CISy5gC6KPoqRNHVVc3tXI4iYlLxD8_oum9dxhPwyuNUySgJPYj8rFX-MpjFAL9tiuksAj-N__dxA-lJZB0MAC_dQdhkjvD9RbtKLvDUL-tt8dTyrCoYC-nu2pgTIAmwEQawS52l1RQOX7GKZew-SEt804fsj24_TrGAKuQvDFCxlSWCB-Jv8lkJvOPQub0g')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-high via-surface-container-high/90 to-transparent"></div>
+<div class="relative z-10 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xs rounded-full bg-primary text-on-primary text-label-sm font-label-sm uppercase tracking-wider">Simulcast Live</span>
+<div class="flex items-center gap-space-xs text-secondary text-label-md font-label-md">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>Next Drop in 04h 12m</span>
+</div>
+</div>
+<div>
+<h2 class="text-headline-lg-mobile font-headline-lg-mobile text-on-surface mb-space-xs">Jujutsu Kaisen Season 3</h2>
+<p class="text-body-sm text-on-surface-variant">Episode 14: "The Shibuya Incident - Gate Open" drops tonight with exclusive English sub &amp; dub.</p>
+</div>
+<div class="flex items-center gap-space-md pt-space-xs">
+<button class="flex-1 py-3 px-space-md rounded-xl bg-primary text-on-primary font-label-lg font-label-lg flex items-center justify-center gap-space-sm shadow-[0_0_20px_rgba(208,188,255,0.3)] transition-transform active:scale-95" onclick="alert('Notification set! We will ping you when the episode drops.')">
+<span class="material-symbols-outlined">notifications_active</span>
+<span>Remind Me</span>
+</button>
+<button class="py-3 px-space-md rounded-xl bg-surface-container-low text-on-surface font-label-lg font-label-lg flex items-center justify-center gap-space-sm transition-colors hover:bg-surface-container">
+<span class="material-symbols-outlined">bookmark</span>
+<span>Save</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Airing Schedule Carousel -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Weekly Airing Schedule</h3>
+<span class="text-label-md font-label-md text-primary">View All</span>
+</div>
+<div class="flex gap-space-md overflow-x-auto pb-space-sm -mx-gutter px-gutter scrollbar-none">
+<!-- Card 1 -->
+<div class="flex-shrink-0 w-44 rounded-xl bg-surface-container p-space-md flex flex-col gap-space-sm shadow-md">
+<div class="relative w-full h-36 rounded-lg bg-cover bg-center overflow-hidden" data-alt="Demon Slayer Kimetsu no Yaiba Hashira Training arc promotional artwork, Tanjiro Kamado gripping his Nichirin sword with fierce expression." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC77kay9V9ApUX6Pz7WRtusrHsM9xj9zeuXJi21iWsmQM6FMJqmIa1v5y0k0_KZxmQQN8Q0IPeiOd3WFH8aZplD3qp9tn4qR-ZKOGe5UH73tFpGiHKfvZBL40y7abpA9KUinMudLDhLuUqM84dIpafzy-CzhfUB5Ok8xidfGa5CNHoUpr06T87Kix_yMF47IDC7cx5Jab4AyihyubbAs7f_AKP3CU5H1HNiRBw4oYFhRWaKqU8ZyEbc7w')">
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-surface/80 backdrop-blur-md text-secondary text-label-sm font-label-sm">Wed 23:30</div>
+</div>
+<div>
+<span class="text-label-sm font-label-sm text-primary uppercase">Demon Slayer</span>
+<h4 class="text-body-md font-body-md text-on-surface font-semibold truncate">Hashira Training Arc</h4>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant pt-space-xs">
+<span>Ep. 08</span>
+<span class="text-secondary-fixed">Airing Today</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex-shrink-0 w-44 rounded-xl bg-surface-container p-space-md flex flex-col gap-space-sm shadow-md">
+<div class="relative w-full h-36 rounded-lg bg-cover bg-center overflow-hidden" data-alt="Chainsaw Man Denji in hybrid form amidst chaotic action, cinematic lighting, vivid orange and dark purple contrast." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5_IXjA9Iuy5yc5YHwHVfdDkD1kQpFC7w1Fb9bwvgjWkTUGpCFHyKAHPxWmKrlwP4vDcAdIVh0eNlqWqdnzHZNcFMFY783sKwTagFfmcOkCnRV4fslrF67CQzfghqAyUTk2APyLAiARzMUsMEMxRsBlZV1xWp5L7xoMmhiEcjz0SMu2G6syt30aoJqUxmrlFPesuBLpn0whWUbEVEx4z-2s6fjhUjK6Li0OgcZ8bJdrHEy4HzBXBczjA')">
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-surface/80 backdrop-blur-md text-tertiary text-label-sm font-label-sm">Thu 00:00</div>
+</div>
+<div>
+<span class="text-label-sm font-label-sm text-primary uppercase">Chainsaw Man</span>
+<h4 class="text-body-md font-body-md text-on-surface font-semibold truncate">Reze Arc Movie Prep</h4>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant pt-space-xs">
+<span>Special</span>
+<span class="text-on-surface-variant">In 2 Days</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex-shrink-0 w-44 rounded-xl bg-surface-container p-space-md flex flex-col gap-space-sm shadow-md">
+<div class="relative w-full h-36 rounded-lg bg-cover bg-center overflow-hidden" data-alt="Solo Leveling Sung Jinwoo standing in a dark dungeon with blue dagger glow and ethereal purple aura." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDceK1OxsO7HVyo4he_R1GLUEllRGdrPFzw7f8xF_Tbp7y_OS9qI8R7eR7fAQz8r6D1O3aypfMNTwX3Qxz9XWYiuOmelJcKSo7OhnxiITErjW3v8DUXR-jA3oMsyBHYy9Wfl3SCOCl3B6IfGE9bvzKIUBOlKEj5bEJuEovsL-kMuI-Bi6Vq8CReKIOVaSSm0kkfgv2y9cFUBdlWM5vbOeXXhWSkyoqOU4Wmel2QtFfFTyydzFeUnjS65Q')">
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-surface/80 backdrop-blur-md text-tertiary text-label-sm font-label-sm">Sat 18:00</div>
+</div>
+<div>
+<span class="text-label-sm font-label-sm text-primary uppercase">Solo Leveling</span>
+<h4 class="text-body-md font-body-md text-on-surface font-semibold truncate">Season 2: Arise</h4>
+</div>
+<div class="flex items-center justify-between text-body-sm text-on-surface-variant pt-space-xs">
+<span>Ep. 02</span>
+<span class="text-on-surface-variant">In 4 Days</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Breaking Industry News -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Breaking Industry News</h3>
+<span class="text-label-md font-label-md text-primary">Latest Feed</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- News Item 1 -->
+<div class="rounded-xl bg-surface-container p-space-md flex gap-space-md items-center shadow-md transition-all hover:bg-surface-container-high">
+<div class="w-24 h-24 rounded-lg bg-cover bg-center flex-shrink-0" data-alt="Studio MAPPA animation production floor with multiple monitors displaying intricate character keyframes and storyboards." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBs_JWQ6nf8cuXgkuacYkuBb3ZfJuM9yYBnaTyFBmYL8H7bAn0fclRsfAKjx1szl8czMcalMPvkbnP31ZZBDeN2xnuUKY-EimKTVEZ9w6Uv21zi9DEu8q5Kr92nl5KFOYbfRyfnNns0hoR8mpiaWug3vxHlGZL6bo80InjZqVKwW4TzcbRS_jW0bGXfgYpw1Nb7mfx8dEhPGpaRqwQVp6I7Bl2EbloeBeV4mabfqblWOeffzVTdM8R3rQ')"></div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded-full bg-primary-container/20 text-primary text-label-sm font-label-sm">Studio Update</span>
+<span class="text-body-sm text-on-surface-variant">3m ago</span>
+</div>
+<h4 class="text-body-lg font-body-lg font-semibold text-on-surface truncate">MAPPA Announces Revolutionary Pipeline for Upcoming Projects</h4>
+<div class="flex items-center gap-space-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+<span>4 min read</span>
+</div>
+</div>
+</div>
+<!-- News Item 2 -->
+<div class="rounded-xl bg-surface-container p-space-md flex gap-space-md items-center shadow-md transition-all hover:bg-surface-container-high">
+<div class="w-24 h-24 rounded-lg bg-cover bg-center flex-shrink-0" data-alt="Tokyo Anime Awards ceremony stage lit with vibrant neon violet and cyber-cyan beams, celebrating top anime creators." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDtrMzGJL9pN6Z3F_OSFFr8nxUnDG8nInwbzR_ZnbHD9l4ZdNbAI-X7YJzYogSgXO0eMCAMbh2ITT5N7tngU4HmFqpJRKVjf-jnKb6dW3QJryEOpAvlyWmvFsIf9B94bDwA9S3kIaxVDMhhcrmPFfB4PwcAUKbrlnm43473apDZ6205Gj_nWLmqMYHyK773nKcX-qbuC9WrUbtlwbWfJ8eKV92gjh5pYbFe5xaRNpjX05L9cEsvEXs8sw')"></div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/20 text-secondary text-label-sm font-label-sm">Awards</span>
+<span class="text-body-sm text-on-surface-variant">1h ago</span>
+</div>
+<h4 class="text-body-lg font-body-lg font-semibold text-on-surface truncate">Tokyo Anime Awards 2025: Complete Nominees List Revealed</h4>
+<div class="flex items-center gap-space-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+<span>6 min read</span>
+</div>
+</div>
+</div>
+<!-- News Item 3 -->
+<div class="rounded-xl bg-surface-container p-space-md flex gap-space-md items-center shadow-md transition-all hover:bg-surface-container-high">
+<div class="w-24 h-24 rounded-lg bg-cover bg-center flex-shrink-0" data-alt="Exclusive manga volume covers lined up on a sleek dark shelf with dramatic rim lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDJBWp-HQi5P2H0zYj2ckXt9NluUefChVUTp90-g-imfGrjAW7aRb1xY9_yU0J9nCbCmXnAERfgQ3mpMbp9BKLCrunYzNOnB_bsZdE2xHrkEFQ4MVAw3X1uI7UlC0YtLbRELdhobY5KpNFCkFpuZxXJCjyAWesxeQOqtsVdIp7MMUIGKVcMfQjaRMORO848WTDEEikBb3ts_KJKC9UzESPANZ6SbhLgXNS_bDhjfHmY8VVIlodqkQnRhg')"></div>
+<div class="flex flex-col flex-1 min-w-0 justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/30 text-tertiary text-label-sm font-label-sm">Manga</span>
+<span class="text-body-sm text-on-surface-variant">3h ago</span>
+</div>
+<h4 class="text-body-lg font-body-lg font-semibold text-on-surface truncate">Blue Lock Manga Crosses 35 Million Copies Sold Worldwide</h4>
+<div class="flex items-center gap-space-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+<span>2 min read</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Review and Discussion Highlights -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Community Discussions</h3>
+<span class="text-label-md font-label-md text-primary">Join Chat</span>
+</div>
+<div class="rounded-2xl bg-surface-container-low p-space-lg flex flex-col gap-space-md shadow-lg">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-cover bg-center" data-alt="Avatar portrait of an anime enthusiast fan with purple cyberpunk headphones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvfOZMBuJxLhxJz-XNpWlCauE3QqJqpRrFuSmDdU4PiRo97jLU4ZfqU4-ZcMq6vlA0FPE13hb1rJ2fUg1zRe1CHq4_Hbb5FpYLX5ReVue1LIT2FcsUAkrb58HW3b7kq51yk_smGdD35yuR7Lee2merkZUuxGY9L1NIuXzEERYpZ_yBQufhQ7lv5AEJzE1WkeaMQg5Ic_cTAlPR7mp7VsxdOf5aNqS7DF8erQP6rp53QtZb5xLJeWEQMQ')"></div>
+<div>
+<h5 class="text-body-md font-body-md font-semibold text-on-surface">OtakuPulse_Meg</h5>
+<span class="text-body-sm text-on-surface-variant">25 mins ago in #jjk-spoilers</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-primary bg-primary-container/10 px-space-sm py-1 rounded-full">
+<span class="material-symbols-outlined text-[16px]">local_fire_department</span>
+<span class="text-label-sm font-label-sm">Hot Take</span>
+</div>
+</div>
+<p class="text-body-md text-on-surface">
+        "That sakuga sequence in the latest Jujutsu Kaisen episode was genuinely otherworldly. MAPPA outdid themselves on the choreography and pacing. What did everyone else think about the sound design during the domain expansion?"
+      </p>
+<div class="flex items-center justify-between pt-space-xs border-t border-surface-variant/2onta">
+<div class="flex items-center gap-space-md">
+<button class="flex items-center gap-space-xs text-on-surface-variant hover:text-primary">
+<span class="material-symbols-outlined text-[18px]">thumb_up</span>
+<span class="text-body-sm">342</span>
+</button>
+<button class="flex items-center gap-space-xs text-on-surface-variant hover:text-secondary">
+<span class="material-symbols-outlined text-[18px]">chat_bubble</span>
+<span class="text-body-sm">84 Replies</span>
+</button>
+</div>
+<span class="text-label-sm text-tertiary">Verified Critic</span>
+</div>
+</div>
+</div>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)]" data-active-classes="text-primary bg-primary-container/10 font-bold"><div class="flex justify-around items-center h-20 px-space-sm"><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 text-on-surface-variant transition-all rounded-xl" data-path="home" href="#"><span class="material-symbols-outlined">home</span><span class="text-label-sm font-label-sm">Home</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 text-on-surface-variant transition-all rounded-xl" data-path="drops" href="#"><span class="material-symbols-outlined">bolt</span><span class="text-label-sm font-label-sm">Drops</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 transition-all rounded-xl text-primary bg-primary-container/10 font-bold" data-path="news" href="#"><span class="material-symbols-outlined">newspaper</span><span class="text-label-sm font-label-sm">News</span></a><a class="flex flex-col items-center justify-center gap-space-xs w-16 h-16 text-on-surface-variant transition-all rounded-xl" data-path="profile" href="#"><span class="material-symbols-outlined">person</span><span class="text-label-sm font-label-sm">Profile</span></a></div></nav><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/></body></html>
